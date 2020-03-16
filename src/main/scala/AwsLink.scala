@@ -18,7 +18,7 @@ package zio_aws_s3
 
 import java.nio.file.{ Paths }
 import java.util.concurrent.CompletableFuture
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 import com.github.ghik.silencer.silent
 
 import zio.{ Has, IO, Task, ZIO, ZLayer }
